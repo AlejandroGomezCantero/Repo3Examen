@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignorar archivos compilados (archivos de clase Java)
+*.class
+
+# Ignorar archivos de configuración de IntelliJ IDEA
+.idea/
+
+# Ignorar archivos de configuración de Eclipse
+.project
+.classpath
+
+# Ignorar archivos generados por el sistema operativo
+Thumbs.db
+.DS_Store
+
+# Ignorar dependencias de Maven o Gradle (si usas un gestor de dependencias)
+target/
+build/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+
+# Ignorar archivos generados por el sistema
+*.bak
+*.swp
