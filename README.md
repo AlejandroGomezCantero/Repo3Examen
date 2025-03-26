@@ -25,23 +25,32 @@ Este proyecto es útil para personas que necesitan una herramienta simple para o
 
 **USO**
 
-*Agregar una tarea: *
-add "Comprar pan"
+Para gestionar citas médicas, puedes usar los siguientes comandos:
 
-*Listar tareas pendientes: *
-list
+Agregar una cita:
+add "2025-03-27 10:00" "Dr. Pérez"
 
-*Eliminar una tarea: * 
+Ver la agenda del médico:
 
-remove tarea
+ver_agenda "Dr. Pérez"
+
+Cancelar una cita:
+cancel "2025-03-27 10:00"
+
+Ver historial de citas de un paciente:
+ver_historial "Juan Pérez"
+
+
 
 **Requisitos**
 
-*Java 11 o superior.*
+Java 11 o superior.
 
-*IDE (como IntelliJ IDEA, Eclipse, o NetBeans).*
+IDE como IntelliJ IDEA, Eclipse, o NetBeans.
 
-*Conexión a Internet para clonar el repositorio desde GitHub.*
+Conexión a Internet para clonar el repositorio desde GitHub.
+
+Conexión a la base de datos (si se configura una base de datos)
 
 
 ###  🛠 Uso de Ramas en Git y gitignore
